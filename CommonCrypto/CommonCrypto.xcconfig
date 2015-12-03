@@ -1,0 +1,11 @@
+//
+//  CommonCrypto_search_paths.xcconfig
+//  CommonCrypto
+//
+//  Created by Armando Di Cianno on 12/3/15.
+//  Copyright © 2015 Armando Di Cianno. All rights reserved.
+//
+
+MODULEMAP_FILE[sdk=iphoneos*]        = $(SRCROOT)/CommonCrypto/iphoneos.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/CommonCrypto/iphonesimulator.modulemap
+MODULEMAP_FILE[sdk=macosx*]          = $(SRCROOT)/CommonCrypto/macosx.modulemap

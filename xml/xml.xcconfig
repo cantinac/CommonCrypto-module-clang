@@ -1,0 +1,11 @@
+//
+//  xml.xcconfig
+//  xml
+//
+//  Created by Armando Di Cianno on 8/11/15.
+//
+//
+
+MODULEMAP_FILE[sdk=iphoneos*]        = $(SRCROOT)/xml/iphoneos.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/xml/iphonesimulator.modulemap
+MODULEMAP_FILE[sdk=macosx*]          = $(SRCROOT)/xml/macosx.modulemap

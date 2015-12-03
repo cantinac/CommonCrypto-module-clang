@@ -1,0 +1,10 @@
+module CommonCrypto [system] {
+    
+    umbrella header "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+    
+    //exclude header "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/libxml2/libxml/DOCBparser.h"
+    
+    link "commonCrypto"
+    
+    export *
+}

@@ -1,0 +1,9 @@
+//
+//  global.xcconfig
+//  xml
+//
+//  Created by Armando Di Cianno on 8/12/15.
+//
+//
+
+HEADER_SEARCH_PATHS                  = $(inherited) $(SDKROOT)/usr/include/libxml2

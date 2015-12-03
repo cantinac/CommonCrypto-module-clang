@@ -1,0 +1,11 @@
+
+module xml [system] {
+    
+    umbrella "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2"
+    
+    exclude header "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/libxml2/libxml/DOCBparser.h"
+    
+    link "xml2"
+    
+    export *
+}
